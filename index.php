@@ -12,13 +12,15 @@
   
     <body>
         
+        <?php include_once('header.php')?>
+        
         <div class="banner">
             <h1>Jacob Carlson</h1>
             <p>Student | New Haven, CT</p>
         </div>
 
-
-        <!-- Main body -->
+        
+        
         <div class="jumbotron">
             
             <a class="btn btn-primary btn-lg outline" href="about" role="button">About</a>
