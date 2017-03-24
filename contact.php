@@ -5,8 +5,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href='style.css'>
         <title>Contact</title>
-      
-        <!----fonts----->
+
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100|Raleway:100" rel="stylesheet">
     
     </head>
@@ -18,8 +17,6 @@
             <p>Student | New Haven, CT</p>
         </div>
     
-
-        <!-- Main body -->
         <div class="jumbotron">
         
             <a class="btn btn-primary btn-lg outline" href="about.html" role="button">About</a>
