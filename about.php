@@ -6,7 +6,6 @@
         <link rel="stylesheet" href='style.css'>
         <title>About</title>
       
-        <!----fonts----->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100|Raleway:100" rel="stylesheet">
     
     </head>
