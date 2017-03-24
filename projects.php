@@ -6,7 +6,6 @@
         <link rel="stylesheet" href='style.css'>
         <title>Projects</title>
       
-        <!----fonts----->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100|Raleway:100" rel="stylesheet">
     
     </head>
@@ -17,9 +16,7 @@
             <h1>Jacob Carlson</h1>
             <p>Student | New Haven, CT</p>
         </div>
-    
 
-        <!-- Main body -->
         <div class="jumbotron">
         
             <a class="btn btn-primary btn-lg outline" href="about.html" role="button">About</a>
