@@ -3,17 +3,17 @@ body {
 }
 
 .navbar a {
-    padding-left: 30;
+    padding-left: 30px;
 }
 
 #header {
     background-color: #b3d9ff;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 #header h1 {
-    font-size: 80;
-    padding-top: 20;
+    font-size: 80px;
+    padding-top: 20px;
 }
 
 #about {
@@ -25,7 +25,7 @@ body {
 }
 
 #projects h5 {
-    padding-top: 15;
+    padding-top: 15px;
 }
 
 #contact {
@@ -33,7 +33,7 @@ body {
 }
 
 #contact h1 {
-    padding-bottom: 15;
+    padding-bottom: 15px;
 }
 
 #footer {
@@ -41,7 +41,7 @@ body {
 }
 
 .container-fluid {
-    padding: 40;
+    padding: 40px;
 }
 
 .btn-primary {
