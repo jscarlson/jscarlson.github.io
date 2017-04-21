@@ -1,0 +1,57 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar a {
+    padding-left: 30px;
+}
+
+#header {
+    background-color: #b3d9ff;
+    margin-bottom: 0px;
+}
+
+#header h1 {
+    font-size: 80px;
+    padding-top: 20px;
+}
+
+#about {
+    background-color: #cce6ff;
+}
+
+#projects {
+    background-color: #e6f2ff;
+}
+
+#projects h5 {
+    padding-top: 15px;
+}
+
+#contact {
+    background-color: #ffffff;
+}
+
+#contact h1 {
+    padding-bottom: 15px;
+}
+
+#footer {
+    background-color: ghostwhite;
+}
+
+.container-fluid {
+    padding: 40px;
+}
+
+.btn-primary {
+    background: black;
+    border: black;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: white;
+    background-color: lightgrey;
+    border-color: lightgrey; 
+}
+
