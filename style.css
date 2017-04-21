@@ -36,6 +36,10 @@ body {
     padding-bottom: 15px;
 }
 
+#about h1 {
+    padding-bottom: 15px;
+}
+
 #footer {
     background-color: ghostwhite;
 }
