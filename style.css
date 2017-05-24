@@ -9,7 +9,9 @@ body {
     height: 20px;
 }
 
-.navbar {min-height: 20px !important;}
+.navbar {
+    min-height: 20px !important;
+}
 
 .navbar a {
     padding-left: 30px;
