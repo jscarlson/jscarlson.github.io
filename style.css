@@ -1,14 +1,6 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
-    padding-top: 20px;
-}
-
-.navbar {
-    height: 20px;
-}
-
-.navbar-brand {
-    height: 20px;
+    padding-top: 50px;
 }
 
 .navbar a {
