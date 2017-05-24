@@ -4,7 +4,11 @@ body {
 }
 
 .navbar {
-    height: 20px !important;
+    height: 20px;
+}
+
+.navbar-brand {
+    height: 20px;
 }
 
 .navbar a {
