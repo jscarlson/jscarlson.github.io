@@ -6,10 +6,10 @@ body {
 .navbar-nav > li > a, .navbar-brand {
     padding-top: 5px !important; 
     padding-bottom: 0px !important;
-    height: 30px;
+    height: 20px;
 }
 
-.navbar {min-height: 30px !important;}
+.navbar {min-height: 20px !important;}
 
 .navbar a {
     padding-left: 30px;
