@@ -3,6 +3,12 @@ body {
     padding-top: 20px;
 }
 
+@media (min-width: 576px) {
+    #header h1 {
+        text-align: center;
+    }
+}
+
 .navbar a {
     padding-left: 30px;
 }
