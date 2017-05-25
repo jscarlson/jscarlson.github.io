@@ -3,7 +3,7 @@ body {
     padding-top: 20px;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
     #header h1 {
         text-align: center;
         font-size: 60px;
