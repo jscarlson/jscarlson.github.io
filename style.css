@@ -8,6 +8,9 @@ body {
         text-align: center;
         font-size: 60px;
     }
+    #header p {
+        text-align: center;
+    }
 }
 
 .navbar a {
