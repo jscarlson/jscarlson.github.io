@@ -1,0 +1,66 @@
+(Intercept)  as.factor(cow.number)142  as.factor(cow.number)147  as.factor(cow.number)148  as.factor(cow.number)151 
+             1.732157e-01                       NaN              3.787534e-01              1.399557e-01              1.834470e-01 
+ as.factor(cow.number)155  as.factor(cow.number)156  as.factor(cow.number)163  as.factor(cow.number)166  as.factor(cow.number)169 
+             1.777311e-01              2.679107e-01              1.881032e-01              3.375357e-01              3.846487e-01 
+ as.factor(cow.number)175  as.factor(cow.number)181  as.factor(cow.number)184  as.factor(cow.number)187  as.factor(cow.number)189 
+             2.619267e-01              2.954448e-01              2.337734e-01              2.619267e-01              1.818669e-01 
+ as.factor(cow.number)193  as.factor(cow.number)199  as.factor(cow.number)202  as.factor(cow.number)205  as.factor(cow.number)211 
+             2.796121e-01                       NaN                       NaN              2.490254e-01              1.506204e-01 
+ as.factor(cow.number)217  as.factor(cow.number)221  as.factor(cow.number)225  as.factor(cow.number)227  as.factor(cow.number)457 
+             1.826763e-01              2.048057e-01              1.748669e-01              6.836754e-02              3.201096e-01 
+ as.factor(cow.number)462  as.factor(cow.number)481  as.factor(cow.number)482  as.factor(cow.number)725  as.factor(cow.number)730 
+             6.209157e-01              1.102646e-01              2.016728e-01              5.571261e-01              1.684040e-01 
+ as.factor(cow.number)745  as.factor(cow.number)748  as.factor(cow.number)750  as.factor(cow.number)766  as.factor(cow.number)782 
+                      NaN              1.702801e-01              4.111496e-01              1.684040e-01              3.673778e-01 
+ as.factor(cow.number)798  as.factor(cow.number)804  as.factor(cow.number)835  as.factor(cow.number)870  as.factor(cow.number)888 
+             1.684040e-01                       NaN              1.684040e-01              2.862757e-01                       NaN 
+ as.factor(cow.number)898  as.factor(cow.number)915 as.factor(cow.number)1577 as.factor(cow.number)9802 as.factor(cow.number)9804 
+             6.439927e-02                       NaN              6.439927e-02              1.790086e-01                       NaN 
+as.factor(cow.number)9805 as.factor(cow.number)9808 as.factor(cow.number)9810 as.factor(cow.number)9811 as.factor(cow.number)9812 
+             1.411151e-01                       NaN              2.619267e-01              1.946179e-01              1.947475e-01 
+as.factor(cow.number)9814 as.factor(cow.number)9815 as.factor(cow.number)9818 as.factor(cow.number)9819 as.factor(cow.number)9820 
+             3.424278e-01              2.596681e-01              4.321956e-01              3.731362e-01                       NaN 
+as.factor(cow.number)9823 as.factor(cow.number)9828 as.factor(cow.number)9830         as.factor(code)20         as.factor(code)40 
+             1.826763e-01              3.234015e-01                       NaN              3.210513e-02                       NaN 
+        as.factor(code)42         as.factor(code)51         as.factor(code)55         as.factor(code)91         as.factor(code)94 
+             6.019676e-15                       NaN                       NaN              5.100395e-14              5.368796e-15 
+        as.factor(code)95        as.factor(code)100        as.factor(code)130        as.factor(code)160        as.factor(code)200 
+             2.200103e-15              4.323349e-02              7.904185e-15                       NaN              1.555404e-01 
+       as.factor(code)210        as.factor(code)211        as.factor(code)212        as.factor(code)220        as.factor(code)230 
+             4.500455e-01              4.119357e-01              2.709842e-01              3.347975e-01              2.396194e-01 
+       as.factor(code)235        as.factor(code)255        as.factor(code)265        as.factor(code)290        as.factor(code)310 
+             1.498819e-01              3.265972e-01              3.627544e-01              7.683706e-01              6.065386e-01 
+       as.factor(code)315        as.factor(code)325        as.factor(code)344        as.factor(code)345        as.factor(code)350 
+             3.627544e-01              3.002768e-01              2.709842e-01              9.513487e-01                       NaN 
+       as.factor(code)352        as.factor(code)355        as.factor(code)360        as.factor(code)365        as.factor(code)366 
+             2.396194e-01              5.770691e-01              2.333353e-01              6.733698e-02              1.420403e-01 
+       as.factor(code)375        as.factor(code)385        as.factor(code)390        as.factor(code)433        as.factor(code)483 
+             6.733698e-02              1.675838e-01              2.396194e-01              1.946179e-01              3.806497e-01 
+       as.factor(code)520        as.factor(code)530        as.factor(code)540        as.factor(code)541        as.factor(code)560 
+                      NaN                       NaN                       NaN              8.749087e-16                       NaN 
+       as.factor(code)600        as.factor(code)615        as.factor(code)620        as.factor(code)630        as.factor(code)640 
+                      NaN                       NaN              3.948582e-01                       NaN              2.396194e-01 
+       as.factor(code)645        as.factor(code)651        as.factor(code)652        as.factor(code)663        as.factor(code)666 
+                      NaN              3.948582e-01              1.492090e-01                       NaN              2.931188e-01 
+       as.factor(code)670        as.factor(code)700        as.factor(code)710        as.factor(code)712        as.factor(code)731 
+                      NaN              2.454836e-01              5.760367e-01              2.619267e-01                       NaN 
+       as.factor(code)732        as.factor(code)740        as.factor(code)750        as.factor(code)770        as.factor(code)780 
+                      NaN              1.801563e-01              3.058143e-01              3.870012e-01                       NaN 
+       as.factor(code)811        as.factor(code)812        as.factor(code)817        as.factor(code)820        as.factor(code)900 
+                      NaN              1.098635e-01              1.779524e-02              1.935006e-01                       NaN 
+       as.factor(code)920       as.factor(code)1169       as.factor(code)1283       as.factor(code)1312       as.factor(code)1466 
+             2.007671e-01              2.921927e-01              1.935006e-01                       NaN              2.483056e-01 
+      as.factor(code)2345       as.factor(code)2573       as.factor(code)2751       as.factor(code)3392       as.factor(code)3398 
+             5.760367e-01              6.304078e-02              6.304078e-02              1.293488e-15              1.371249e-01 
+      as.factor(code)3445       as.factor(code)3687       as.factor(code)3738       as.factor(code)3746       as.factor(code)3808 
+             7.656425e-01              1.555404e-01              2.779587e-01                       NaN                       NaN 
+      as.factor(code)4362       as.factor(code)4752       as.factor(code)5017       as.factor(code)5671       as.factor(code)5676 
+             2.337073e-01              2.719478e-02              8.646697e-02              2.241832e-01              5.147419e-01 
+      as.factor(code)6466       as.factor(code)7204       as.factor(code)7274       as.factor(code)7681       as.factor(code)7777 
+             1.555404e-01              4.727004e-01                       NaN              2.709842e-01                       NaN 
+      as.factor(code)8223       as.factor(code)8292       as.factor(code)8528       as.factor(code)8564       as.factor(code)9399 
+                      NaN                       NaN                       NaN              6.745700e-15                       NaN 
+      as.factor(code)9600       as.factor(code)9901                    spring                    summer                      fall 
+             1.555404e-01                       NaN                       NaN              1.533420e-01              1.062877e-01 
+    st_w_samei_d_lpow_max 
+             8.305420e-02
