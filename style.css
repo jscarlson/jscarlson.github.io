@@ -13,13 +13,10 @@ body {
     }
 }
 
-.navbar a {
-    padding-left: 20px;
-}
-
 #header {
     background-color: #b3d9ff;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 #header h1 {
