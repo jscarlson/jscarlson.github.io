@@ -1,3 +1,3 @@
 # jscarlson.github.io
 
-Code for Jacob Carlson's personal website
+Jacob Carlson's personal website
