@@ -21,7 +21,8 @@ body {
 
 #header h1 {
     font-size: 80px;
-    padding-top: 25px;
+    padding-top: 20px;
+    margin-top: 0px;
 }
 
 #about {
