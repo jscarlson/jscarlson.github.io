@@ -61,11 +61,11 @@ body {
 
 .navbar {
     margin-bottom: 0 !important;
+    border-radius: 0 !important;
 }
 
 .navbar-custom {
     background-color: #acacf2 !important;
-    border-radius: 0;
 }
 
 
