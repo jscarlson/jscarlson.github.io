@@ -59,6 +59,11 @@ body {
     border-color: #b3d9ff;
 }
 
+.navbar-default .navbar-brand {
+    color: #777;
+    color: #b3d9ff;
+}
+
 .container-fluid {
     padding: 40px;
 }
