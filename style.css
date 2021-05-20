@@ -54,6 +54,10 @@ body {
     background-color: ghostwhite;
 }
 
+.navbar-custom {
+    background-color: #b3d9ff;
+}
+
 .container-fluid {
     padding: 40px;
 }
