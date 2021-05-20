@@ -15,7 +15,7 @@ body {
 }
 
 #header {
-    background-color: #b3d9ff;
+    background-color: #acacf2;
     margin: 0;
     padding-top: 0px;
 }
@@ -27,15 +27,15 @@ body {
 }
 
 #about {
-    background-color: #cce6ff;
+    background-color: #acc7f2;
 }
 
 #projects {
-    background-color: #e6f2ff;
+    background-color: #acd8f2;
 }
 
 #publications {
-    background-color: #e6f2ff;
+    background-color: #acf2ef;
 }
 
 #projects h5 {
@@ -43,7 +43,7 @@ body {
 }
 
 #contact {
-    background-color: #ffffff;
+    background-color: #d5f7f6;
 }
 
 #contact h1 {
@@ -64,7 +64,7 @@ body {
 }
 
 .navbar-custom {
-    background-color: #b3d9ff !important;
+    background-color: #acacf2 !important;
 }
 
 
