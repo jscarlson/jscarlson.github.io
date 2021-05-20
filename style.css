@@ -56,7 +56,9 @@ body {
 
 .navbar-custom {
     background-color: #b3d9ff !important;
-    margin-bottom: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
 }
 
 
