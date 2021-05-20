@@ -52,6 +52,7 @@ body {
 
 #footer {
     background-color: ghostwhite;
+    margin-bottom: 0;
 }
 
 .navbar {
@@ -77,4 +78,3 @@ body {
     background-color: lightgrey;
     border-color: lightgrey; 
 }
-
