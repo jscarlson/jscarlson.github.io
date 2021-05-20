@@ -54,12 +54,12 @@ body {
     background-color: ghostwhite;
 }
 
-.navbar-default {
+.navbar {
     background-color: #b3d9ff;
     border-color: #b3d9ff;
 }
 
-.navbar-default .navbar-brand {
+.navbar .navbar-brand {
     color: #777;
     color: #b3d9ff;
 }
