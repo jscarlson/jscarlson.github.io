@@ -35,6 +35,10 @@ body {
 }
 
 #publications {
+    background-color: #a8edd7;
+}
+
+#working_papers {
     background-color: #acf2ef;
 }
 
