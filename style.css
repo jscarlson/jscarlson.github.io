@@ -72,6 +72,10 @@ body {
     background-color: #acacf2 !important;
 }
 
+.row {
+    padding-left: 30%;
+    padding-right: 30%;
+}
 
 .container-fluid {
     padding: 40px;
