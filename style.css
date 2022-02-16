@@ -13,8 +13,8 @@ body {
         text-align: center;
     }
     .row {
-        padding-left: 0%;
-        padding-right: 0%;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
