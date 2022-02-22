@@ -82,7 +82,7 @@ body {
     border-color: lightgrey; 
 }
 
-@media (max-width: 330px) {
+@media (max-width: 768px) {
     #header h1 {
         text-align: center;
         font-size: 60px;
