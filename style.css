@@ -4,20 +4,6 @@ body {
     margin: 0px;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (-webkit-min-device-pixel-ratio: 2) {
-    #header h1 {
-        text-align: center;
-        font-size: 30px;
-    }
-    #header p {
-        text-align: center;
-    }
-    .row {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-}
-
 #header {
     background-color: #acacf2;
     margin: 0;
@@ -94,4 +80,18 @@ body {
     color: white;
     background-color: lightgrey;
     border-color: lightgrey; 
+}
+
+@media (max-width: 330px) {
+    #header h1 {
+        text-align: center;
+        font-size: 60px;
+    }
+    #header p {
+        text-align: center;
+    }
+    .row {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }
