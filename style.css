@@ -14,7 +14,7 @@ body {
     font-size: 80px;
     padding-top: 30px;
     margin: 0px;
-    text-align: left;
+    text-align: center;
 }
 
 #about {
@@ -64,8 +64,8 @@ body {
 }
 
 .row {
-    padding-left: 33%;
-    padding-right: 33%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .container-fluid {
