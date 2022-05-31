@@ -16,18 +16,6 @@ body {
     margin: 0px;
 }
 
-.firstname {
-  text-align: left;
-}
-
-.nickname {
-  text-align: center;
-}
-
-.lastname {
-  text-align: right;
-}
-
 #about {
     background-color: #acc7f2;
 }
