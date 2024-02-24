@@ -77,7 +77,7 @@ body {
 .btn-primary {
     background: black;
     border: black;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
