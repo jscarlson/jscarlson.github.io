@@ -83,7 +83,7 @@
         <div id="contact" class="container-fluid">
             <div class="row">
                 <h1>Contact</h1>  
-                <p>Email: <a id="email-contact"></a></p>
+                <p>Email: <span id="email-contact"></span></p>
                 <p>Twitter/X: @J_S_Carlson</p>
             </div>
         </div>
@@ -97,12 +97,11 @@
             </div>
         </div>
 
-        <script>
+       <script>
             const user = 'jacob_carlson';
             const domain = 'fas.harvard.edu';
             const emailElement = document.getElementById('email-contact');
-            emailElement.innerHTML = user + '@' + domain;
-            emailElement.setAttribute('href', 'mailto:' + user + '@' + domain);
+            emailElement.textContent = user + '@' + domain;
         </script>
     
     </body>
