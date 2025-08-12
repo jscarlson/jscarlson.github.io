@@ -33,7 +33,7 @@
                 <p>I'm interested in learning algorithms and their potential to expand the range of questions that can be asked and answered by social scientists and policymakers.</p>
                 -->
                 <p>I'm interested in topics at the intersections of economics, computer science, and statistics.</p>
-                <a class="btn btn-primary" href="./CV.pdf">Curriculum Vitae</a>
+                <a class="btn btn-primary" href="./CV.pdf">CV</a>
                 <a class="btn btn-primary" href="https://scholar.google.com/citations?user=ijle68oAAAAJ&hl=en&oi=ao">Google Scholar</a>
                 <a class="btn btn-primary" href="https://www.semanticscholar.org/author/Jacob-Carlson/2060946945">Semantic Scholar</a>
                 
@@ -81,12 +81,12 @@
         </div>
         
         <div id="contact" class="container-fluid">
-            <div class="row">
-                <h1>Contact</h1>  
-                <p>Email: See Curriculum Vitae</p>
-                <p>Twitter/X: @J_S_Carlson</p>
-            </div>
-        </div>
+            <div class="row">
+                <h1>Contact</h1>  
+                <p>Email: <a id="email-contact"></a></p>
+                <p>Twitter/X: @J_S_Carlson</p>
+            </div>
+        </div>
         
         <div id="footer" class="container-fluid">
             <div class="row">
@@ -96,6 +96,14 @@
                 </script>
             </div>
         </div>
+
+        <script>
+            const user = 'jacob_carlson';
+            const domain = 'fas.harvard.edu';
+            const emailElement = document.getElementById('email-contact');
+            emailElement.innerHTML = user + '@' + domain;
+            emailElement.setAttribute('href', 'mailto:' + user + '@' + domain);
+        </script>
     
     </body>
     
