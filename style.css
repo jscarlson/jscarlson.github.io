@@ -43,8 +43,10 @@ body {
     
 }
 
+/* swapped footer/contact scheme */
 #contact {
-    background-color: #ffffff; /* pure white */
+    background-color: #111111; /* black */
+    color: #ffffff;            /* white text */
 }
 
 #contact h1 {
@@ -56,9 +58,9 @@ body {
 }
 
 #footer {
-    background-color: #111111; /* strong anchor */
+    background-color: #ffffff; /* white */
     margin-bottom: 0;
-    color: #ffffff;
+    color: #111111;            /* black text */
 }
 
 .navbar {
@@ -86,10 +88,15 @@ body {
     color: #ffffff;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    color: #111111;
-    background-color: #f2d23c; /* yellow hover */
-    border-color: #f2d23c;
+/* removed hover coloring */
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    color: #ffffff;
+    background-color: #111111;
+    border-color: #111111;
 }
 
 @media (max-width: 768px) {
