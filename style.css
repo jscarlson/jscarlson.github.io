@@ -2,15 +2,14 @@ body {
     /* font-family: 'JetBrains Mono', sans-serif; */
     padding-top: 0px;
     margin: 0px;
-    background-color: #f6f1e6; /* warm off-white */
+    background-color: #ffffff; /* pure white */
     color: #111111;
 }
 
 #header {
-    background-color: #f6f1e6; /* off-white canvas */
+    background-color: #ffffff; /* pure white */
     margin: 0;
     padding-top: 0px;
-    border-bottom: 8px solid #111111; /* Mondrian line */
 }
 
 #header h1 {
@@ -21,20 +20,17 @@ body {
 }
 
 #about {
-    background-color: #f2d23c; /* muted-ish primary yellow */
-    border-top: 8px solid #111111;
+    background-color: #f2d23c; /* yellow (Mondrian-like) */
 }
 
 #publications {
-    background-color: #1f4aa8; /* deep primary blue */
-    border-top: 8px solid #111111;
-    color: #f6f1e6; /* readability on blue */
+    background-color: #1f4aa8; /* blue (Mondrian-like) */
+    color: #ffffff; /* readability */
 }
 
 #working_papers {
-    background-color: #c53a2f; /* primary red variant */
-    border-top: 8px solid #111111;
-    color: #f6f1e6; /* readability on red */
+    background-color: #c53a2f; /* red (Mondrian-like) */
+    color: #ffffff; /* readability */
 }
 
 /*
@@ -48,8 +44,7 @@ body {
 }
 
 #contact {
-    background-color: #f6f1e6; /* off-white block */
-    border-top: 8px solid #111111;
+    background-color: #ffffff; /* pure white */
 }
 
 #contact h1 {
@@ -61,20 +56,18 @@ body {
 }
 
 #footer {
-    background-color: #111111; /* strong black anchor */
+    background-color: #111111; /* strong anchor */
     margin-bottom: 0;
-    border-top: 8px solid #111111;
-    color: #f6f1e6;
+    color: #ffffff;
 }
 
 .navbar {
     margin-bottom: 0 !important;
     border-radius: 0 !important;
-    border-bottom: 8px solid #111111;
 }
 
 .navbar-custom {
-    background-color: #f6f1e6 !important; /* match canvas */
+    background-color: #ffffff !important; /* pure white */
 }
 
 .row {
@@ -90,7 +83,7 @@ body {
     background: #111111;
     border: #111111;
     margin-bottom: 5px;
-    color: #f6f1e6;
+    color: #ffffff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
