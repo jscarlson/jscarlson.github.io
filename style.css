@@ -20,18 +20,18 @@ body {
     text-align: left;
 }
 
-/* OKLCH only (slightly more muted: lower chroma a bit) */
+/* Swapped: about = blue, publications = yellow (lighter + clean OKLCH primaries) */
 #about {
-    background-color: oklch(0.86 0.10 90);
-}
-
-#publications {
-    background-color: oklch(0.46 0.10 255);
+    background-color: oklch(0.56 0.12 255); /* blue */
     color: #ffffff;
 }
 
+#publications {
+    background-color: oklch(0.90 0.12 90);  /* yellow */
+}
+
 #working_papers {
-    background-color: oklch(0.54 0.10 25);
+    background-color: oklch(0.63 0.12 25);  /* red */
     color: #ffffff;
 }
 
@@ -47,7 +47,7 @@ body {
 
 /* swapped footer/contact scheme */
 #contact {
-    background-color: oklch(0.24 0 0); /* slightly softer than before */
+    background-color: oklch(0.28 0 0);
     color: #ffffff;
 }
 
@@ -85,8 +85,8 @@ body {
 
 /* Keep only the blockier shape */
 .btn-primary {
-    background: oklch(0.24 0 0);
-    border: oklch(0.24 0 0);
+    background: oklch(0.28 0 0);
+    border: oklch(0.28 0 0);
     margin-bottom: 5px;
     border-radius: 0;
 }
@@ -98,8 +98,8 @@ body {
 .btn-primary.active,
 .open>.dropdown-toggle.btn-primary {
     color: white;
-    background-color: oklch(0.24 0 0);
-    border-color: oklch(0.24 0 0);
+    background-color: oklch(0.28 0 0);
+    border-color: oklch(0.28 0 0);
 }
 
 @media (max-width: 768px) {
