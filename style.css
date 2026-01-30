@@ -21,18 +21,19 @@ body {
     text-align: left;
 }
 
+/* Softened (less intense) Mondrian-like primaries (pure hex) */
 #about {
-    background-color: #f2d23c; /* Mondrian-like yellow */
+    background-color: #ddc348; /* softened yellow (from #f2d23c) */
 }
 
 #publications {
-    background-color: #1f4aa8; /* Mondrian-like blue */
-    color: #ffffff;            /* readability */
+    background-color: #34569f; /* softened blue (from #1f4aa8) */
+    color: #ffffff;
 }
 
 #working_papers {
-    background-color: #c53a2f; /* Mondrian-like red */
-    color: #ffffff;            /* readability */
+    background-color: #b9473e; /* softened red (from #c53a2f) */
+    color: #ffffff;
 }
 
 /*
@@ -42,27 +43,27 @@ body {
 */
 
 #projects h5 {
-    
+
 }
 
-/* swapped footer/contact scheme */
+/* swapped footer/contact scheme, with softened “black” */
 #contact {
-    background-color: #111111; /* black */
-    color: #ffffff;            /* white text */
+    background-color: #252525; /* softened black (from #111111) */
+    color: #ffffff;
 }
 
 #contact h1 {
-    
+
 }
 
 #about h1 {
-    
+
 }
 
 #footer {
-    background-color: #ffffff; /* white */
+    background-color: #ffffff;
     margin-bottom: 0;
-    color: #111111;            /* black text */
+    color: #111111;
 }
 
 .navbar {
@@ -85,22 +86,22 @@ body {
 
 /* Keep only the blockier SHAPE; revert font-related button styling */
 .btn-primary {
-    background: black;
-    border: black;
+    background: #252525;     /* softened black */
+    border: #252525;
     margin-bottom: 5px;
 
-    border-radius: 0; /* blocky shape */
+    border-radius: 0;        /* blocky shape */
 }
 
-/* No hover recolor (keep button behavior visually stable) */
+/* No hover recolor */
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
 .open>.dropdown-toggle.btn-primary {
     color: white;
-    background-color: black;
-    border-color: black;
+    background-color: #252525;
+    border-color: #252525;
 }
 
 @media (max-width: 768px) {
