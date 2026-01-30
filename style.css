@@ -45,9 +45,9 @@ body {
 
 }
 
-/* swapped footer/contact scheme */
+/* swapped footer/contact scheme — true black */
 #contact {
-    background-color: oklch(0.28 0 0);
+    background-color: #000000;
     color: #ffffff;
 }
 
@@ -83,10 +83,10 @@ body {
     padding: 40px;
 }
 
-/* Keep only the blockier shape */
+/* Keep only the blockier shape — true black */
 .btn-primary {
-    background: oklch(0.28 0 0);
-    border: oklch(0.28 0 0);
+    background: #000000;
+    border: #000000;
     margin-bottom: 5px;
     border-radius: 0;
 }
@@ -98,8 +98,8 @@ body {
 .btn-primary.active,
 .open>.dropdown-toggle.btn-primary {
     color: white;
-    background-color: oklch(0.28 0 0);
-    border-color: oklch(0.28 0 0);
+    background-color: #000000;
+    border-color: #000000;
 }
 
 @media (max-width: 768px) {
