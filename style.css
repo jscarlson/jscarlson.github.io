@@ -3,12 +3,12 @@ body {
     padding-top: 0px;
     margin: 0px;
 
-    background-color: #ffffff;
-    color: #111111;
+    background-color: oklch(1 0 0);
+    color: oklch(0 0 0);
 }
 
 #header {
-    background-color: #ffffff;
+    background-color: oklch(1 0 0);
     margin: 0;
     padding-top: 0px;
 }
@@ -20,19 +20,19 @@ body {
     text-align: left;
 }
 
-/* Swapped: about = blue, publications = yellow (lighter + clean OKLCH primaries) */
 #about {
-    background-color: oklch(0.56 0.12 255); /* blue */
-    color: #ffffff;
+    background-color: oklch(1 0 0);
+    color: oklch(0 0 0);
 }
 
 #publications {
-    background-color: oklch(0.90 0.12 90);  /* yellow */
+    background-color: oklch(1 0 0);
+    color: oklch(0 0 0);
 }
 
 #working_papers {
-    background-color: oklch(0.63 0.12 25);  /* red */
-    color: #ffffff;
+    background-color: oklch(1 0 0);
+    color: oklch(0 0 0);
 }
 
 /*
@@ -42,27 +42,26 @@ body {
 */
 
 #projects h5 {
-
+    
 }
 
-/* swapped footer/contact scheme — true black */
 #contact {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: oklch(1 0 0);
+    color: oklch(0 0 0);
 }
 
 #contact h1 {
-
+    
 }
 
 #about h1 {
-
+    
 }
 
 #footer {
-    background-color: #ffffff;
+    background-color: oklch(1 0 0);
     margin-bottom: 0;
-    color: #111111;
+    color: oklch(0 0 0);
 }
 
 .navbar {
@@ -71,7 +70,7 @@ body {
 }
 
 .navbar-custom {
-    background-color: #ffffff !important;
+    background-color: oklch(1 0 0) !important;
 }
 
 .row {
@@ -83,7 +82,7 @@ body {
     padding: 40px;
 }
 
-/* Keep only the blockier shape — true black */
+/* Keep buttons as-is (true black, blocky shape, no hover recolor) */
 .btn-primary {
     background: #000000;
     border: #000000;
@@ -91,7 +90,6 @@ body {
     border-radius: 0;
 }
 
-/* No hover recolor */
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
