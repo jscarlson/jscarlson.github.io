@@ -2,12 +2,15 @@ body {
     /* font-family: 'JetBrains Mono', sans-serif; */
     padding-top: 0px;
     margin: 0px;
+    background-color: #f6f1e6; /* warm off-white */
+    color: #111111;
 }
 
 #header {
-    background-color: #acacf2;
+    background-color: #f6f1e6; /* off-white canvas */
     margin: 0;
     padding-top: 0px;
+    border-bottom: 8px solid #111111; /* Mondrian line */
 }
 
 #header h1 {
@@ -18,15 +21,20 @@ body {
 }
 
 #about {
-    background-color: #acc7f2;
+    background-color: #f2d23c; /* muted-ish primary yellow */
+    border-top: 8px solid #111111;
 }
 
 #publications {
-    background-color: #acf2ef;
+    background-color: #1f4aa8; /* deep primary blue */
+    border-top: 8px solid #111111;
+    color: #f6f1e6; /* readability on blue */
 }
 
 #working_papers {
-    background-color: #acd8f2;
+    background-color: #c53a2f; /* primary red variant */
+    border-top: 8px solid #111111;
+    color: #f6f1e6; /* readability on red */
 }
 
 /*
@@ -40,7 +48,8 @@ body {
 }
 
 #contact {
-    background-color: #a8edd7;
+    background-color: #f6f1e6; /* off-white block */
+    border-top: 8px solid #111111;
 }
 
 #contact h1 {
@@ -52,17 +61,20 @@ body {
 }
 
 #footer {
-    background-color: #6dd1b3;
+    background-color: #111111; /* strong black anchor */
     margin-bottom: 0;
+    border-top: 8px solid #111111;
+    color: #f6f1e6;
 }
 
 .navbar {
     margin-bottom: 0 !important;
     border-radius: 0 !important;
+    border-bottom: 8px solid #111111;
 }
 
 .navbar-custom {
-    background-color: #acacf2 !important;
+    background-color: #f6f1e6 !important; /* match canvas */
 }
 
 .row {
@@ -75,15 +87,16 @@ body {
 }
 
 .btn-primary {
-    background: black;
-    border: black;
+    background: #111111;
+    border: #111111;
     margin-bottom: 5px;
+    color: #f6f1e6;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    color: white;
-    background-color: lightgrey;
-    border-color: lightgrey; 
+    color: #111111;
+    background-color: #f2d23c; /* yellow hover */
+    border-color: #f2d23c;
 }
 
 @media (max-width: 768px) {
