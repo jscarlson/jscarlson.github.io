@@ -1,5 +1,4 @@
 body {
-    /* Reverted to previous font behavior (no override) */
     /* font-family: 'JetBrains Mono', sans-serif; */
     padding-top: 0px;
     margin: 0px;
@@ -16,7 +15,7 @@ body {
 }
 
 #header h1 {
-    font-size: 55px;  /* reverted (unchanged) */
+    font-size: 55px;
     padding-top: 30px;
     margin: 0px;
     text-align: left;
@@ -84,32 +83,24 @@ body {
     padding: 40px;
 }
 
-/* Blocky, hard-edged buttons (kept) */
+/* Keep only the blockier SHAPE; revert font-related button styling */
 .btn-primary {
-    background: #111111;
-    border: 3px solid #111111;
+    background: black;
+    border: black;
     margin-bottom: 5px;
-    color: #ffffff;
 
-    border-radius: 0;
-    padding: 14px 22px;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    line-height: 1;
+    border-radius: 0; /* blocky shape */
 }
 
-/* No hover recolor */
+/* No hover recolor (keep button behavior visually stable) */
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
 .open>.dropdown-toggle.btn-primary {
-    color: #ffffff;
-    background-color: #111111;
-    border-color: #111111;
-    box-shadow: none;
-    outline: none;
+    color: white;
+    background-color: black;
+    border-color: black;
 }
 
 @media (max-width: 768px) {
