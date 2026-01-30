@@ -3,7 +3,6 @@ body {
     padding-top: 0px;
     margin: 0px;
 
-    /* Pure white backdrop */
     background-color: #ffffff;
     color: #111111;
 }
@@ -21,21 +20,18 @@ body {
     text-align: left;
 }
 
-/* Reverted hexes (fallback) + OKLCH “muted intensity” (preferred) */
+/* OKLCH only (slightly more muted: lower chroma a bit) */
 #about {
-    background-color: #f2d23c;                 /* fallback: original yellow */
-    background-color: oklch(0.86 0.12 90);     /* muted chroma, same-ish hue */
+    background-color: oklch(0.86 0.10 90);
 }
 
 #publications {
-    background-color: #1f4aa8;                 /* fallback: original blue */
-    background-color: oklch(0.46 0.12 255);    /* muted chroma */
+    background-color: oklch(0.46 0.10 255);
     color: #ffffff;
 }
 
 #working_papers {
-    background-color: #c53a2f;                 /* fallback: original red */
-    background-color: oklch(0.54 0.12 25);     /* muted chroma */
+    background-color: oklch(0.54 0.10 25);
     color: #ffffff;
 }
 
@@ -51,8 +47,7 @@ body {
 
 /* swapped footer/contact scheme */
 #contact {
-    background-color: #111111;                 /* fallback: original “black” */
-    background-color: oklch(0.22 0 0);         /* slightly lifted black */
+    background-color: oklch(0.24 0 0); /* slightly softer than before */
     color: #ffffff;
 }
 
@@ -88,15 +83,12 @@ body {
     padding: 40px;
 }
 
-/* Keep only the blockier SHAPE; revert font-related button styling */
+/* Keep only the blockier shape */
 .btn-primary {
-    background: #111111;                        /* fallback */
-    background: oklch(0.22 0 0);                /* match contact */
-    border: #111111;                            /* fallback */
-    border-color: oklch(0.22 0 0);
+    background: oklch(0.24 0 0);
+    border: oklch(0.24 0 0);
     margin-bottom: 5px;
-
-    border-radius: 0; /* blocky shape */
+    border-radius: 0;
 }
 
 /* No hover recolor */
@@ -106,10 +98,8 @@ body {
 .btn-primary.active,
 .open>.dropdown-toggle.btn-primary {
     color: white;
-    background-color: #111111;                  /* fallback */
-    background-color: oklch(0.22 0 0);
-    border-color: #111111;                      /* fallback */
-    border-color: oklch(0.22 0 0);
+    background-color: oklch(0.24 0 0);
+    border-color: oklch(0.24 0 0);
 }
 
 @media (max-width: 768px) {
