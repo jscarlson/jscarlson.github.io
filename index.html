@@ -1,118 +1,167 @@
 <!DOCTYPE html>
-<html>
-    
-    
-    <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href='style.css'>
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
-        <title>Jacob (Jake) Carlson</title>
-        <!-- <link href="https://fonts.googleapis.com/css?family=JetBrains+Mono" rel="stylesheet"> -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+<html lang="en">
 
-    
-    <body>
-        
-        <nav class="navbar fixed-top navbar-custom">
-          <a class="navbar-brand" href=""></a>
-        </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jake Carlson — PhD student in Economics at Harvard University, working on econometric methods for unstructured data.">
+    <meta property="og:title" content="Jacob (Jake) Carlson">
+    <meta property="og:description" content="PhD student in Economics at Harvard University.">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <title>Jacob (Jake) Carlson</title>
+</head>
 
-        
-        <div id="header" class="container-fluid" style="padding-bottom: 10px;">
-            <div class="row">
-                <h1>Jacob (Jake) Carlson</h1>
+<body>
+
+    <nav class="site-nav" aria-label="Main navigation">
+        <a class="nav-brand" href="#header">Jacob Carlson</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#working_papers">Working Papers</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="header">
+        <h1>Jacob (Jake) Carlson</h1>
+        <div class="header-photo">
+            <img src="./260519-0135.jpg" alt="Jacob (Jake) Carlson">
+        </div>
+    </header>
+
+    <section id="about" aria-labelledby="about-heading">
+        <div class="inner">
+            <h2 id="about-heading">About</h2>
+            <p>Hi! I'm Jake, a PhD student in the Department of Economics at Harvard University. I graduated from Yale College in 2020, where I pursued a double major in Statistics and Data Science (S&DS) and Ethics, Politics, and Economics (EP&E).</p>
+            <p>I'm interested in topics at the intersections of economics, computer science, and statistics, e.g., econometric methods for unstructured data.</p>
+            <div class="btn-group">
+                <a class="btn" href="./CV.pdf">CV</a>
+                <a class="btn" href="https://scholar.google.com/citations?user=ijle68oAAAAJ&hl=en&oi=ao">Google Scholar</a>
+                <a class="btn" href="https://www.semanticscholar.org/author/Jacob-Carlson/2060946945">Semantic Scholar</a>
             </div>
-            <div class="row">
-                <div style="text-align: center; padding-top: 70px; padding-bottom: 0px;">
-                    <img src="./260519-0135.jpg" alt="Jacob (Jake) Carlson" style="max-width: 240px; width: 100%; display: inline-block;">
+        </div>
+    </section>
+
+    <section id="working_papers" aria-labelledby="wp-heading">
+        <div class="inner">
+            <h2 id="wp-heading">Working Papers</h2>
+
+            <article class="paper">
+                <h3>When Are Time Series Predictions Causal? The Potential System and Dynamic Causal Effects</h3>
+                <p class="citation"><span class="self">Carlson, Jacob</span> and Neil Shephard. "When are time series predictions causal? The potential system and dynamic causal effects." (2026).</p>
+                <div class="btn-group">
+                    <a class="btn" href="https://arxiv.org/abs/2603.20394">Paper</a>
                 </div>
-            </div>
-        </div>
-        
-        <div id="about" class="container-fluid">
-            <div class="row">
-                <h1>About</h1>
-                <p>Hi! I'm Jake, a PhD student in the Department of Economics at Harvard University. I graduated from Yale College in 2020, where I pursued a double major in Statistics and Data Science (S&DS) and Ethics, Politics, and Economics (EP&E).</p>
-                <p>I'm interested in topics at the intersections of economics, computer science, and statistics, e.g., econometric methods for unstructured data.</p>
-                <a class="btn btn-primary" href="./CV.pdf">CV</a>
-                <a class="btn btn-primary" href="https://scholar.google.com/citations?user=ijle68oAAAAJ&hl=en&oi=ao">Google Scholar</a>
-                <a class="btn btn-primary" href="https://www.semanticscholar.org/author/Jacob-Carlson/2060946945">Semantic Scholar</a>
-                
-            </div>
-        </div>
+            </article>
 
-        <div id="working_papers" class="container-fluid">
-            <div class="row">
-                <h1>Working Papers</h1>
-                <h4><b>When Are Time Series Predictions Causal? The Potential System and Dynamic Causal Effects</b></h4>
-                <p><u>Carlson, Jacob</u> and Neil Shephard. "When are time series predictions causal? The potential system and dynamic causal effects." (2026).</p>
-                <a class="btn btn-primary" href="https://arxiv.org/abs/2603.20394">Paper</a>
-                <h4><b>Making Interpretable Discoveries from Unstructured Data: A High-Dimensional Multiple Hypothesis Testing Approach</b></h4>
-                <p><u>Carlson, Jacob</u>. "Making Interpretable Discoveries from Unstructured Data: A High-Dimensional Multiple Hypothesis Testing Approach." (2025).</p>
-                <a class="btn btn-primary" href="./carlson_discovery.pdf">Paper</a>
-                <a class="btn btn-primary" href="https://colab.research.google.com/drive/1yLU6GWHRNmSDHVLXQaq-P6-bZawX-7Tm?usp=sharing">Jupyter Notebook</a>
-                <h4><b>A Unifying Framework for Robust and Efficient Inference with Unstructured Data</b></h4>
-                <p><u>Carlson, Jacob</u> and Melissa Dell. "A Unifying Framework for Robust and Efficient Inference with Unstructured Data." (2025).</p>
-                <a class="btn btn-primary" href="https://arxiv.org/abs/2505.00282">Paper</a>
-                <h4><b>True and Pseudo-True Parameters</b></h4>
-                <p>Andrews, Isaiah, Harvey Barnhard, and <u>Jacob Carlson</u>. "True and Pseudo-True Parameters." (2024).</p>
-                <a class="btn btn-primary" href="https://arxiv.org/abs/2604.15563">Paper</a>
-            </div>
-        </div>
-        
-        <div id="publications" class="container-fluid">
-            <div class="row">
-                <h1>Publications</h1>
-                <h4><b>Efficient OCR for Building a Diverse Digital History</b></h4>
-                <p><u>Carlson, Jacob</u>, Tom Bryan, and Melissa Dell. "Efficient OCR for Building a Diverse Digital History." ACL (2024). <i>Oral presentation.</i></p>
-                <a class="btn btn-primary" href="https://aclanthology.org/2024.acl-long.440/">Paper</a>
-                <a class="btn btn-primary" href="https://github.com/dell-research-harvard/effocr">Codebase</a>
-                <h4><b>American Stories: A Large-Scale Structured Text Dataset of Historical U.S. Newspapers</b></h4>
-                <p>Dell, Melissa, <u>Jacob Carlson</u>, Tom Bryan, Emily Silcock, Abhishek Arora, Zejiang Shen, Luca D'Amico-Wong, Quan Le, Pablo Querubin, Leander Heldring. "American Stories: A Large-Scale Structured Text Dataset of Historical U.S. Newspapers." NeurIPS D&B (2023).</p>
-                <a class="btn btn-primary" href="https://papers.nips.cc/paper_files/paper/2023/hash/ffeb860479ccae44d84c0de32acd693d-Abstract-Datasets_and_Benchmarks.html">Paper</a>
-                <a class="btn btn-primary" href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories">Dataset</a>
-                <h4><b>EfficientOCR: An Extensible, Open-Source Package for Efficiently Digitizing World Knowledge</b></h4>
-                <p>Bryan, Tom, <u>Jacob Carlson</u>, Abhishek Arora, Melissa Dell. "EfficientOCR: An Extensible, Open-Source Package for Efficiently Digitizing World Knowledge." EMNLP SD (2023).</p>
-                <a class="btn btn-primary" href="https://aclanthology.org/2023.emnlp-demo.52/">Paper</a>
-                <a class="btn btn-primary" href="https://pypi.org/project/efficient-ocr/">Python Package</a>
-                <h4><b>Dyadic Clustering in International Relations</b></h4>
-                <p><u>Carlson, Jacob</u>, Trevor Incerti, and P. M. Aronow. "Dyadic Clustering in International Relations." Political Analysis (2024).</p>
-                <a class="btn btn-primary" href="https://www.cambridge.org/core/journals/political-analysis/article/dyadic-clustering-in-international-relations/521F1378ED4F8411B2A4AB0E8FA172A0?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark">Paper</a>
-                <a class="btn btn-primary" href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/9I0LRQ">Replication</a>
-                <a class="btn btn-primary" href="https://github.com/jscarlson/dcr">R Package</a> 
-                <a class="btn btn-primary" href="https://github.com/jscarlson/stata-dcr">Stata Command</a>
-                <h4><b>LayoutParser: A Unified Toolkit for Deep Learning Based Document Image Analysis</b></h4>
-                <p>Shen, Zejiang, Ruochen Zhang, Melissa Dell, Benjamin Lee, <u>Jacob Carlson</u>, and Weining Li. "LayoutParser: A Unified Toolkit for Deep Learning Based Document Image Analysis." ICDAR (2021). <i>Oral presentation.</i></p>
-                <a class="btn btn-primary" href="https://link.springer.com/chapter/10.1007/978-3-030-86549-8_9">Paper</a> 
-                <a class="btn btn-primary" href="https://layout-parser.github.io/">Website</a>
-            </div>
-        </div>
-        
-        <div id="contact" class="container-fluid">
-            <div class="row">
-                <h1>Contact</h1>  
-                <p>Email: <span id="email-contact"></span></p>
-                <p>Twitter/X: @J_S_Carlson</p>
-            </div>
-        </div>
-        
-        <div id="footer" class="container-fluid">
-            <div class="row">
-                <script>
-                    var today = new Date();
-                    document.write("© " +  today.getFullYear() + " Jacob Carlson");
-                </script>
-            </div>
-        </div>
+            <article class="paper">
+                <h3>Making Interpretable Discoveries from Unstructured Data: A High-Dimensional Multiple Hypothesis Testing Approach</h3>
+                <p class="citation"><span class="self">Carlson, Jacob</span>. "Making Interpretable Discoveries from Unstructured Data: A High-Dimensional Multiple Hypothesis Testing Approach." (2025).</p>
+                <div class="btn-group">
+                    <a class="btn" href="./carlson_discovery.pdf">Paper</a>
+                    <a class="btn" href="https://colab.research.google.com/drive/1yLU6GWHRNmSDHVLXQaq-P6-bZawX-7Tm?usp=sharing">Jupyter Notebook</a>
+                </div>
+            </article>
 
-       <script>
-            const user = 'jacob_carlson';
-            const domain = 'fas.harvard.edu';
-            const emailElement = document.getElementById('email-contact');
-            emailElement.textContent = user + '@' + domain;
-        </script>
-    
-    </body>
-    
+            <article class="paper">
+                <h3>A Unifying Framework for Robust and Efficient Inference with Unstructured Data</h3>
+                <p class="citation"><span class="self">Carlson, Jacob</span> and Melissa Dell. "A Unifying Framework for Robust and Efficient Inference with Unstructured Data." (2025).</p>
+                <div class="btn-group">
+                    <a class="btn" href="https://arxiv.org/abs/2505.00282">Paper</a>
+                </div>
+            </article>
+
+            <article class="paper">
+                <h3>True and Pseudo-True Parameters</h3>
+                <p class="citation">Andrews, Isaiah, Harvey Barnhard, and <span class="self">Jacob Carlson</span>. "True and Pseudo-True Parameters." (2024).</p>
+                <div class="btn-group">
+                    <a class="btn" href="https://arxiv.org/abs/2604.15563">Paper</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="publications" aria-labelledby="pub-heading">
+        <div class="inner">
+            <h2 id="pub-heading">Publications</h2>
+
+            <article class="paper">
+                <h3>Efficient OCR for Building a Diverse Digital History</h3>
+                <p class="citation"><span class="self">Carlson, Jacob</span>, Tom Bryan, and Melissa Dell. "Efficient OCR for Building a Diverse Digital History." ACL (2024). <em>Oral presentation.</em></p>
+                <div class="btn-group">
+                    <a class="btn" href="https://aclanthology.org/2024.acl-long.440/">Paper</a>
+                    <a class="btn" href="https://github.com/dell-research-harvard/effocr">Codebase</a>
+                </div>
+            </article>
+
+            <article class="paper">
+                <h3>American Stories: A Large-Scale Structured Text Dataset of Historical U.S. Newspapers</h3>
+                <p class="citation">Dell, Melissa, <span class="self">Jacob Carlson</span>, Tom Bryan, Emily Silcock, Abhishek Arora, Zejiang Shen, Luca D'Amico-Wong, Quan Le, Pablo Querubin, Leander Heldring. "American Stories: A Large-Scale Structured Text Dataset of Historical U.S. Newspapers." NeurIPS D&amp;B (2023).</p>
+                <div class="btn-group">
+                    <a class="btn" href="https://papers.nips.cc/paper_files/paper/2023/hash/ffeb860479ccae44d84c0de32acd693d-Abstract-Datasets_and_Benchmarks.html">Paper</a>
+                    <a class="btn" href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories">Dataset</a>
+                </div>
+            </article>
+
+            <article class="paper">
+                <h3>EfficientOCR: An Extensible, Open-Source Package for Efficiently Digitizing World Knowledge</h3>
+                <p class="citation">Bryan, Tom, <span class="self">Jacob Carlson</span>, Abhishek Arora, Melissa Dell. "EfficientOCR: An Extensible, Open-Source Package for Efficiently Digitizing World Knowledge." EMNLP SD (2023).</p>
+                <div class="btn-group">
+                    <a class="btn" href="https://aclanthology.org/2023.emnlp-demo.52/">Paper</a>
+                    <a class="btn" href="https://pypi.org/project/efficient-ocr/">Python Package</a>
+                </div>
+            </article>
+
+            <article class="paper">
+                <h3>Dyadic Clustering in International Relations</h3>
+                <p class="citation"><span class="self">Carlson, Jacob</span>, Trevor Incerti, and P. M. Aronow. "Dyadic Clustering in International Relations." Political Analysis (2024).</p>
+                <div class="btn-group">
+                    <a class="btn" href="https://www.cambridge.org/core/journals/political-analysis/article/dyadic-clustering-in-international-relations/521F1378ED4F8411B2A4AB0E8FA172A0">Paper</a>
+                    <a class="btn" href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/9I0LRQ">Replication</a>
+                    <a class="btn" href="https://github.com/jscarlson/dcr">R Package</a>
+                    <a class="btn" href="https://github.com/jscarlson/stata-dcr">Stata Command</a>
+                </div>
+            </article>
+
+            <article class="paper">
+                <h3>LayoutParser: A Unified Toolkit for Deep Learning Based Document Image Analysis</h3>
+                <p class="citation">Shen, Zejiang, Ruochen Zhang, Melissa Dell, Benjamin Lee, <span class="self">Jacob Carlson</span>, and Weining Li. "LayoutParser: A Unified Toolkit for Deep Learning Based Document Image Analysis." ICDAR (2021). <em>Oral presentation.</em></p>
+                <div class="btn-group">
+                    <a class="btn" href="https://link.springer.com/chapter/10.1007/978-3-030-86549-8_9">Paper</a>
+                    <a class="btn" href="https://layout-parser.github.io/">Website</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+        <div class="inner">
+            <h2 id="contact-heading">Contact</h2>
+            <p>Email: <span id="email-contact"></span></p>
+            <p>Twitter/X: @J_S_Carlson</p>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="inner">
+            <p id="copyright"></p>
+        </div>
+    </footer>
+
+    <script>
+        // Obfuscated email assembly
+        const user = 'jacob_carlson';
+        const domain = 'fas.harvard.edu';
+        document.getElementById('email-contact').textContent = user + '@' + domain;
+
+        // Copyright year
+        document.getElementById('copyright').textContent =
+            '© ' + new Date().getFullYear() + ' Jacob Carlson';
+    </script>
+
+</body>
+
 </html>
