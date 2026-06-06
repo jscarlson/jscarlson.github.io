@@ -1,115 +1,289 @@
-body {
-    /* font-family: 'JetBrains Mono', sans-serif; */
-    padding-top: 0px;
-    margin: 0px;
+/* ============================================================
+   BASE & CUSTOM PROPERTIES
+   ============================================================ */
 
-    background-color: oklch(1 0 0);
-    color: oklch(0 0 0);
+:root {
+    --bg:        oklch(1 0 0);
+    --fg:        oklch(0 0 0);
+    --muted:     oklch(0.45 0 0);
+    --border:    oklch(0.88 0 0);
+    --btn-bg:    oklch(0 0 0);
+    --btn-fg:    oklch(1 0 0);
+    --nav-h:     52px;
+    --content-w: 680px;
+    --font:      'Georgia', serif;                      /* body */
+    --font-ui:   ui-sans-serif, system-ui, sans-serif;  /* nav, buttons, labels */
 }
 
-#header {
-    background-color: oklch(1 0 0);
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg:     oklch(0.1 0 0);
+        --fg:     oklch(0.93 0 0);
+        --muted:  oklch(0.6 0 0);
+        --border: oklch(0.22 0 0);
+        --btn-bg: oklch(0.93 0 0);
+        --btn-fg: oklch(0.1 0 0);
+    }
+}
+
+/* ============================================================
+   RESET & GLOBAL
+   ============================================================ */
+
+*, *::before, *::after {
+    box-sizing: border-box;
     margin: 0;
-    padding-top: 0px;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: calc(var(--nav-h) + 16px);
+}
+
+body {
+    font-family: var(--font);
+    font-size: 1rem;
+    line-height: 1.65;
+    background-color: var(--bg);
+    color: var(--fg);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    color: inherit;
+}
+
+/* ============================================================
+   NAV
+   ============================================================ */
+
+.site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--nav-h);
+    background-color: var(--bg);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 clamp(1rem, 5vw, 3rem);
+    z-index: 100;
+    font-family: var(--font-ui);
+    font-size: 0.82rem;
+    letter-spacing: 0.02em;
+}
+
+.nav-brand {
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.75rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--muted);
+    transition: color 0.15s;
+}
+
+.nav-links a:hover {
+    color: var(--fg);
+}
+
+/* ============================================================
+   LAYOUT SHELL
+   ============================================================ */
+
+header,
+section,
+footer {
+    padding: 3.5rem clamp(1rem, 5vw, 3rem);
+}
+
+.inner {
+    max-width: var(--content-w);
+    margin: 0 auto;
+}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+
+#header {
+    padding-top: calc(var(--nav-h) + 3rem);
 }
 
 #header h1 {
-    font-size: 55px;
-    padding-top: 30px;
-    margin: 0px;
-    text-align: left;
+    font-size: clamp(2.4rem, 6vw, 3.4rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin-bottom: 2rem;
 }
 
-#about {
-    background-color: oklch(1 0 0);
-    color: oklch(0 0 0);
+.header-photo img {
+    width: 220px;
+    border-radius: 2px;
 }
 
-#publications {
-    background-color: oklch(1 0 0);
-    color: oklch(0 0 0);
+/* ============================================================
+   SECTION HEADINGS
+   ============================================================ */
+
+section h2 {
+    font-size: 0.72rem;
+    font-family: var(--font-ui);
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 2rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--border);
 }
 
-#working_papers {
-    background-color: oklch(1 0 0);
-    color: oklch(0 0 0);
+/* ============================================================
+   ABOUT
+   ============================================================ */
+
+#about p {
+    margin-bottom: 1rem;
 }
 
-/*
-#projects {
-    background-color: #d5f7f6;
-}
-*/
-
-#projects h5 {
-    
+#about .btn-group {
+    margin-top: 1.5rem;
 }
 
-#contact {
-    background-color: oklch(1 0 0);
-    color: oklch(0 0 0);
+/* ============================================================
+   PAPERS
+   ============================================================ */
+
+.paper {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid var(--border);
 }
 
-#contact h1 {
-    
+.paper:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
-#about h1 {
-    
+.paper h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 0.45rem;
 }
+
+.paper .citation {
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin-bottom: 0.8rem;
+    line-height: 1.5;
+}
+
+.paper .citation .self {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    color: var(--fg);
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.btn {
+    display: inline-block;
+    font-family: var(--font-ui);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.3rem 0.75rem;
+    background-color: var(--btn-bg);
+    color: var(--btn-fg);
+    border: 1px solid var(--btn-bg);
+    border-radius: 0;
+    line-height: 1.6;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: 0.75;
+    text-decoration: none;
+    color: var(--btn-fg);
+}
+
+/* ============================================================
+   CONTACT
+   ============================================================ */
+
+#contact p {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
 
 #footer {
-    background-color: oklch(1 0 0);
-    margin-bottom: 0;
-    color: oklch(0 0 0);
+    border-top: 1px solid var(--border);
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
 }
 
-.navbar {
-    margin-bottom: 0 !important;
-    border-radius: 0 !important;
+#footer p {
+    font-family: var(--font-ui);
+    font-size: 0.78rem;
+    color: var(--muted);
 }
 
-.navbar-custom {
-    background-color: oklch(1 0 0) !important;
-}
+/* ============================================================
+   MOBILE
+   ============================================================ */
 
-.row {
-    padding-left: 30%;
-    padding-right: 30%;
-}
+@media (max-width: 640px) {
+    .nav-links {
+        gap: 1rem;
+    }
 
-.container-fluid {
-    padding: 40px;
-}
-
-/* Keep buttons as-is (true black, blocky shape, no hover recolor) */
-.btn-primary {
-    background: #000000;
-    border: #000000;
-    margin-bottom: 5px;
-    border-radius: 0px;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open>.dropdown-toggle.btn-primary {
-    color: white;
-    background-color: #000000;
-    border-color: #000000;
-}
-
-@media (max-width: 768px) {
     #header h1 {
         text-align: center;
-        font-size: 65px;
     }
-    #header p {
-        text-align: center;
+
+    .header-photo {
+        display: flex;
+        justify-content: center;
     }
-    .row {
-        padding-left: 5%;
-        padding-right: 5%;
+}
+
+@media (max-width: 480px) {
+    /* Hide nav text links on very small screens, keep brand */
+    .nav-links {
+        display: none;
     }
 }
