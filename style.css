@@ -120,8 +120,8 @@ body {
 .row h4:first-of-type {
     margin-top: 0;
 }
-.row p + .btn-primary {
-    margin-top: 24px;
+.row p {
+    margin-bottom: 24px;
 }
 /* Keep buttons as-is (true black, blocky shape, no hover recolor) */
 .btn-primary {
