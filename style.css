@@ -51,7 +51,7 @@
 
 body {
     /* font-family: 'JetBrains Mono', sans-serif; */
-    padding-top: 0px;
+    padding-top: 50px;
     margin: 0px;
     background-color: oklch(1 0 0);
     color: oklch(0 0 0);
@@ -102,10 +102,6 @@ body {
     margin-bottom: 0;
     color: oklch(0 0 0);
 }
-.navbar {
-    margin-bottom: 0 !important;
-    border-radius: 0 !important;
-}
 .navbar-custom {
     background-color: oklch(1 0 0) !important;
 }
@@ -119,7 +115,7 @@ body {
 /* Keep buttons as-is (true black, blocky shape, no hover recolor) */
 .btn-primary {
     background: #000000;
-    border: #000000;
+    border: 1px solid #000000;
     margin-bottom: 5px;
     border-radius: 0px;
     color: white;
@@ -127,8 +123,7 @@ body {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
-.btn-primary.active,
-.open>.dropdown-toggle.btn-primary {
+.btn-primary.active {
     color: white;
     background-color: #000000;
     border-color: #000000;
