@@ -51,6 +51,7 @@
 
 body {
     /* font-family: 'JetBrains Mono', sans-serif; */
+    font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
     padding-top: 50px;
     margin: 0px;
     background-color: oklch(1 0 0);
