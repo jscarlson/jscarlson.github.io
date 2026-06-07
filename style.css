@@ -115,10 +115,13 @@ body {
 }
 /* Consistent spacing between paper entries */
 .row h4 {
-    margin-top: 30px;
+    margin-top: 24px;
 }
 .row h4:first-of-type {
     margin-top: 0;
+}
+.row p + .btn-primary {
+    margin-top: 24px;
 }
 /* Keep buttons as-is (true black, blocky shape, no hover recolor) */
 .btn-primary {
