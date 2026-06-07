@@ -55,7 +55,7 @@ body {
     padding-top: 50px;
     margin: 0px;
     background-color: oklch(1 0 0);
-    color: oklch(0.25 0 0);
+    color: oklch(0.45 0 0);
 }
 #header {
     background-color: oklch(1 0 0);
@@ -70,15 +70,15 @@ body {
 }
 #about {
     background-color: oklch(1 0 0);
-    color: oklch(0.25 0 0);
+    color: oklch(0.45 0 0);
 }
 #publications {
     background-color: oklch(1 0 0);
-    color: oklch(0.25 0 0);
+    color: oklch(0.45 0 0);
 }
 #working_papers {
     background-color: oklch(1 0 0);
-    color: oklch(0.25 0 0);
+    color: oklch(0.45 0 0);
 }
 /*
 #projects {
@@ -90,7 +90,7 @@ body {
 }
 #contact {
     background-color: oklch(1 0 0);
-    color: oklch(0.25 0 0);
+    color: oklch(0.45 0 0);
 }
 #contact h1 {
 
@@ -101,7 +101,7 @@ body {
 #footer {
     background-color: oklch(1 0 0);
     margin-bottom: 0;
-    color: oklch(0.25 0 0);
+    color: oklch(0.45 0 0);
 }
 .navbar-custom {
     background-color: oklch(1 0 0) !important;
