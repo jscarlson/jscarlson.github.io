@@ -122,8 +122,8 @@ body {
 }
 /* Keep buttons as-is (true black, blocky shape, no hover recolor) */
 .btn-primary {
-    background: #000000;
-    border: 1px solid #000000;
+    background: oklch(0.45 0 0);
+    border: 1px solid oklch(0.45 0 0);
     margin-bottom: 5px;
     border-radius: 0px;
     color: white;
@@ -133,8 +133,8 @@ body {
 .btn-primary:active,
 .btn-primary.active {
     color: white;
-    background-color: #000000;
-    border-color: #000000;
+    background-color: oklch(0.45 0 0);
+    border-color: oklch(0.45 0 0);
 }
 @media (max-width: 768px) {
     #header h1 {
