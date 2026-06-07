@@ -50,7 +50,8 @@
    ============================================================ */
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'JetBrains Mono', sans-serif; */
+    font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
     padding-top: 50px;
     margin: 0px;
     background-color: oklch(1 0 0);
@@ -111,6 +112,13 @@ body {
 }
 .container-fluid {
     padding: 40px;
+}
+/* Consistent spacing between paper entries */
+.row h4 {
+    margin-top: 24px;
+}
+.row h4:first-of-type {
+    margin-top: 0;
 }
 /* Keep buttons as-is (true black, blocky shape, no hover recolor) */
 .btn-primary {
