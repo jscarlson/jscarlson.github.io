@@ -55,7 +55,7 @@ body {
     padding-top: 50px;
     margin: 0px;
     background-color: oklch(1 0 0);
-    color: oklch(0.65 0 0);
+    color: oklch(0.55 0 0);
 }
 #header {
     background-color: oklch(1 0 0);
@@ -70,15 +70,15 @@ body {
 }
 #about {
     background-color: oklch(1 0 0);
-    color: oklch(0.65 0 0);
+    color: oklch(0.55 0 0);
 }
 #publications {
     background-color: oklch(1 0 0);
-    color: oklch(0.65 0 0);
+    color: oklch(0.55 0 0);
 }
 #working_papers {
     background-color: oklch(1 0 0);
-    color: oklch(0.65 0 0);
+    color: oklch(0.55 0 0);
 }
 /*
 #projects {
@@ -90,7 +90,7 @@ body {
 }
 #contact {
     background-color: oklch(1 0 0);
-    color: oklch(0.65 0 0);
+    color: oklch(0.55 0 0);
 }
 #contact h1 {
 
@@ -101,7 +101,7 @@ body {
 #footer {
     background-color: oklch(1 0 0);
     margin-bottom: 0;
-    color: oklch(0.65 0 0);
+    color: oklch(0.55 0 0);
 }
 .navbar-custom {
     background-color: oklch(1 0 0) !important;
@@ -127,8 +127,8 @@ body {
 }
 /* Keep buttons as-is (true black, blocky shape, no hover recolor) */
 .btn-primary {
-    background: oklch(0.65 0 0);
-    border: 1px solid oklch(0.65 0 0);
+    background: oklch(0.55 0 0);
+    border: 1px solid oklch(0.55 0 0);
     margin-bottom: 5px;
     border-radius: 0px;
     color: white;
@@ -138,8 +138,8 @@ body {
 .btn-primary:active,
 .btn-primary.active {
     color: white;
-    background-color: oklch(0.65 0 0);
-    border-color: oklch(0.65 0 0);
+    background-color: oklch(0.55 0 0);
+    border-color: oklch(0.55 0 0);
 }
 @media (max-width: 768px) {
     #header h1 {
