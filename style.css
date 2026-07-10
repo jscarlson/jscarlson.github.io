@@ -76,6 +76,10 @@ body {
     background-color: oklch(1 0 0);
     color: oklch(0.55 0 0);
 }
+#technical_notes {
+    background-color: oklch(1 0 0);
+    color: oklch(0.55 0 0);
+}
 #working_papers {
     background-color: oklch(1 0 0);
     color: oklch(0.55 0 0);
