@@ -80,6 +80,10 @@ body {
     background-color: oklch(1 0 0);
     color: oklch(0.55 0 0);
 }
+#jmp {
+    background-color: oklch(1 0 0);
+    color: oklch(0.55 0 0);
+}
 #working_papers {
     background-color: oklch(1 0 0);
     color: oklch(0.55 0 0);
