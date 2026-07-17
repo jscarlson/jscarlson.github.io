@@ -3,9 +3,9 @@
    ============================================================ */
 
 :root {
-    --primary-color: #8996A0;
+    --primary-color: oklch(0.55 0 0);
     --background-color: oklch(1 0 0);
-    --button-text-color: white;
+    --button-text-color: oklch(1 0 0);
 }
 
 /* ============================================================
