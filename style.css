@@ -1,9 +1,22 @@
+```css
+/* ============================================================
+   Color variables
+   ============================================================ */
+
+:root {
+    --primary-color: #8C8179;
+    --background-color: oklch(1 0 0);
+    --button-text-color: white;
+}
+
 /* ============================================================
    Bootstrap 3 replacement — only what this site actually uses
    ============================================================ */
 
 /* 1. Box-sizing reset (Bootstrap's reboot) */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -14,8 +27,9 @@
     padding-left: 15px;
 }
 
-/* 3. .row — block-level row (Bootstrap used floats; block is identical here
-         since this site has no multi-column rows) */
+/* 3. .row — block-level row
+   Bootstrap used floats; block is identical here since this
+   site has no multi-column rows */
 .row {
     display: block;
 }
@@ -46,119 +60,144 @@
 }
 
 /* ============================================================
-   Original style.css (unchanged)
+   Original style.css
    ============================================================ */
 
 body {
     /* font-family: 'JetBrains Mono', sans-serif; */
     font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
     padding-top: 50px;
-    margin: 0px;
-    background-color: oklch(1 0 0);
-    color: oklch(0.55 0 0);
-}
-#header {
-    background-color: oklch(1 0 0);
     margin: 0;
-    padding-top: 0px;
+    background-color: var(--background-color);
+    color: var(--primary-color);
 }
+
+#header {
+    background-color: var(--background-color);
+    margin: 0;
+    padding-top: 0;
+}
+
 #header h1 {
     font-size: 55px;
     padding-top: 30px;
-    margin: 0px;
+    margin: 0;
     text-align: left;
 }
+
 #about {
-    background-color: oklch(1 0 0);
-    color: oklch(0.55 0 0);
+    background-color: var(--background-color);
+    color: var(--primary-color);
 }
+
 #publications {
-    background-color: oklch(1 0 0);
-    color: oklch(0.55 0 0);
+    background-color: var(--background-color);
+    color: var(--primary-color);
 }
+
 #technical_notes {
-    background-color: oklch(1 0 0);
-    color: oklch(0.55 0 0);
+    background-color: var(--background-color);
+    color: var(--primary-color);
 }
+
 #jmp {
-    background-color: oklch(1 0 0);
-    color: oklch(0.55 0 0);
+    background-color: var(--background-color);
+    color: var(--primary-color);
 }
+
 #working_papers {
-    background-color: oklch(1 0 0);
-    color: oklch(0.55 0 0);
+    background-color: var(--background-color);
+    color: var(--primary-color);
 }
+
 /*
 #projects {
     background-color: #d5f7f6;
 }
 */
+
 #projects h5 {
 
 }
+
 #contact {
-    background-color: oklch(1 0 0);
-    color: oklch(0.55 0 0);
+    background-color: var(--background-color);
+    color: var(--primary-color);
 }
+
 #contact h1 {
 
 }
+
 #about h1 {
 
 }
+
 #footer {
-    background-color: oklch(1 0 0);
+    background-color: var(--background-color);
     margin-bottom: 0;
-    color: oklch(0.55 0 0);
+    color: var(--primary-color);
 }
+
 .navbar-custom {
-    background-color: oklch(1 0 0) !important;
+    background-color: var(--background-color) !important;
 }
+
 .row {
     padding-left: 30%;
     padding-right: 30%;
 }
+
 .container-fluid {
     padding: 40px;
 }
+
 /* Consistent spacing between paper entries */
 .row h4 {
     margin-top: 24px;
     margin-bottom: 16px;
 }
+
 .row h4:first-of-type {
     margin-top: 0;
 }
+
 .row p {
     margin-top: 0;
     margin-bottom: 19px;
 }
-/* Keep buttons as-is (true black, blocky shape, no hover recolor) */
+
+/* Primary buttons */
 .btn-primary {
-    background: oklch(0.55 0 0);
-    border: 1px solid oklch(0.55 0 0);
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     margin-bottom: 5px;
-    border-radius: 0px;
-    color: white;
+    border-radius: 0;
+    color: var(--button-text-color);
 }
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
-    color: white;
-    background-color: oklch(0.55 0 0);
-    border-color: oklch(0.55 0 0);
+    color: var(--button-text-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
 }
+
 @media (max-width: 768px) {
     #header h1 {
         text-align: center;
         font-size: 65px;
     }
+
     #header p {
         text-align: center;
     }
+
     .row {
         padding-left: 5%;
         padding-right: 5%;
     }
 }
+```
