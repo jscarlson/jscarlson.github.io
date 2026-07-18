@@ -3,7 +3,7 @@
    ============================================================ */
 
 :root {
-    --primary-color: oklch(0.55 0 0);
+    --primary-color: oklch(0.5152 0.0142 296.08);
     --background-color: oklch(1 0 0);
     --button-text-color: oklch(1 0 0);
 }
