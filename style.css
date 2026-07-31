@@ -94,6 +94,16 @@ body {
     color: var(--primary-color);
 }
 
+#publications_cs {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+#publications_soc {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
 #technical_notes {
     background-color: var(--background-color);
     color: var(--primary-color);
